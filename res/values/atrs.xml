@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorArcProgressBar">
+
+        <!-- 直径 -->
+        <attr name="diameter" format="dimension" />
+
+        <!-- 圆弧角度 -->
+        <attr name="engle_start" format="float" />
+        <attr name="engle_sweep" format="float" />
+
+        <!-- 背景圆弧宽度 -->
+        <attr name="arc_width" format="dimension" />
+        <!-- 背景圆弧颜色 -->
+        <attr name="arc_color" format="color" />
+
+        <!-- 背景外圆弧宽度 -->
+        <attr name="out_arc_width" format="dimension" />
+        <!-- 背景外圆弧颜色 -->
+        <attr name="out_arc_color1" format="color" />
+        <attr name="out_arc_color2" format="color" />
+        <attr name="out_arc_color3" format="color" />
+        <!-- 外圆弧间隔 -->
+        <attr name="out_arc_margin" format="dimension" />
+        <!-- 是否显示外圆弧 -->
+        <attr name="out_visible" format="boolean" />
+
+        <!-- 刻度盘 -->
+        <attr name="dial_visible" format="boolean" />
+        <!-- 刻度盘间隔 -->
+        <attr name="dial_margin" format="dimension" />
+        <!-- 刻度盘大刻度颜色 -->
+        <attr name="dial_long_color" format="color" />
+        <!-- 刻度盘小刻度颜色 -->
+        <attr name="dial_short_color" format="color" />
+
+        <!-- 进度条宽度 -->
+        <attr name="progress_width" format="dimension" />
+        <!-- 进度条渐变色1 -->
+        <attr name="progress_color1" format="color" />
+        <!-- 进度条渐变色2 -->
+        <attr name="progress_color2" format="color" />
+        <!-- 进度条渐变色3 -->
+        <attr name="progress_color3" format="color" />
+
+        <!-- 最大进度 -->
+        <attr name="value_max" format="float" />
+        <!-- 当前进度 -->
+        <attr name="value_current" format="float" />
+
+        <!-- 标题 -->
+        <attr name="title_text" format="string" />
+        <attr name="title_color" format="color" />
+        <attr name="title_size" format="dimension" />
+        <attr name="title_visible" format="boolean" />
+
+        <!-- 进度 -->
+        <attr name="speed_color" format="color" />
+        <attr name="speed_size" format="dimension" />
+        <attr name="speed_visible" format="boolean" />
+
+        <!-- 单位 -->
+        <attr name="unit_text" format="string" />
+        <attr name="unit_color" format="color" />
+        <attr name="unit_size" format="dimension" />
+        <attr name="unit_visible" format="boolean" />
+    </declare-styleable>
+
+</resources>
